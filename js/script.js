@@ -1,17 +1,26 @@
-function myFunction() {
+  $(".chmode_button").click(function(){
 
-    document.getElementById("body").classList.toggle("dark_mode");
-    document.getElementById("link11").classList.toggle("dark_mode");
-    document.getElementById("link22").classList.toggle("dark_mode");
-    document.getElementById("link33").classList.toggle("dark_mode");
-    document.getElementById("link44").classList.toggle("dark_mode");
-    document.getElementById("link55").classList.toggle("dark_mode");
-    document.getElementById("link1").classList.toggle("dark_mode");
-    document.getElementById("link2").classList.toggle("dark_mode");
-    document.getElementById("link3").classList.toggle("dark_mode");
-    document.getElementById("link4").classList.toggle("dark_mode");
-    document.getElementById("link5").classList.toggle("dark_mode");
-    document.getElementById("divider").classList.toggle("divider-dark");
-    document.getElementById("main").classList.toggle("main-dark");
-    document.getElementById("page").classList.toggle("page-dark");
-  }
+        if ($('.contact-link').hasClass('dark_mode')){
+            $( ".contact-link" ).removeClass("dark_mode");
+            $( ".icon" ).removeClass("dark_mode");
+            $( ".page" ).removeClass("page-dark");
+            $( ".fat.divider" ).removeClass("divider-dark");
+            $("main").removeClass("main-dark")
+            $("strong>a").removeClass("a-dark")
+            $(".details").removeClass("details-dark")
+
+
+        } else{
+            $( ".contact-link" ).addClass("dark_mode");
+            $( ".icon" ).addClass("dark_mode");
+            $( ".page" ).addClass("page-dark");
+            $( ".fat.divider" ).addClass("divider-dark");
+            $("main").addClass("main-dark")
+            $("strong>a").addClass("a-dark")
+            $(".details").addClass("details-dark")
+
+        }
+  });
+
+
+  

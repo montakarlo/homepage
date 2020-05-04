@@ -1,21 +1,34 @@
+
 .avatar-wrapper{
-    margin-top: 28px;
+    margin: 30px 0 14px;
     position: relative;
     border-radius: 300px;
+    height: 130px;
+}
+.fake{
+    position: absolute;
+    opacity: 0;
+    z-index: 100;
+    width: 130px;
+    height: 130px;
+    border-radius: 300px;
+}
+
+.mySound{
+    display: none;
 }
 
 .glasses-img {
     opacity: 0;
     position: absolute;
-    width: 58px;
+    width: 50px;
     margin: 0 auto;
     transition: all .3s linear;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .avatar-img {
-    width: 160px;
-    height: 160px;
+    height: 130px;
     margin: 0 auto;
     border-radius: 300px;
     box-sizing: border-box;
@@ -35,16 +48,17 @@
 
 .avatar-wrapper:hover .glasses-img{
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -1px;
 }
 .details{
     margin-left: 15px;
 }
 
-.chmode{
+.chmode-wrapper{
     margin: 14px auto;
 }
 .chmode_button{
+    user-select: none;
     display:inline-block;
     padding:0.5em 1.2em;
     margin:0 0.3em 0.3em 0;
@@ -62,20 +76,42 @@
     background-color:#196896;
     cursor: pointer;
 }
-.chmode_button:focus{
-    outline: none;
-}
+
 
 /* DARK MODE */
+
 .dark_mode{
     color: white;
 }
+
+.page-dark{
+    background-color: black;
+    color: white;
+}
+
 .fat.divider.divider-dark{
     border-top: 0.3571428571428571em solid white;
 }
 .main-dark{
     background-color: rgb(31, 31, 31);
+
 }
-.page-dark{
-    background-color: black;
+.a-dark{
+    color: greenyellow;
+}
+
+.details-dark > input:after{
+    border-left: 0.5em solid rgb(228, 228, 228);
+}
+
+@media only screen and (min-width: 1200px){
+
+    article {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+main:nth-last-child(3) {
+    margin-bottom: 0px;
 }
