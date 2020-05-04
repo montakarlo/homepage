@@ -40,3 +40,42 @@
 .details{
     margin-left: 15px;
 }
+
+.chmode{
+    margin: 14px auto;
+}
+.chmode_button{
+    display:inline-block;
+    padding:0.5em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:500;
+    color:#FFFFFF;
+    background-color: rgb(0, 145, 212);
+    text-align:center;
+    border: none;
+    transition: all 0.3s;
+}
+.chmode_button:hover{
+    background-color:#196896;
+    cursor: pointer;
+}
+.chmode_button:focus{
+    outline: none;
+}
+
+/* DARK MODE */
+.dark_mode{
+    color: white;
+}
+.fat.divider.divider-dark{
+    border-top: 0.3571428571428571em solid white;
+}
+.main-dark{
+    background-color: rgb(31, 31, 31);
+}
+.page-dark{
+    background-color: black;
+}
