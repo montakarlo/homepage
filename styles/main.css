@@ -2,7 +2,6 @@
     margin-top: 28px;
     position: relative;
     border-radius: 300px;
-
 }
 
 .glasses-img {
@@ -11,7 +10,7 @@
     width: 58px;
     margin: 0 auto;
     transition: all .3s linear;
-    margin-top: 70px
+    margin-top: 70px;
 }
 
 .avatar-img {
@@ -32,10 +31,12 @@
     -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.6);
-
 }
 
 .avatar-wrapper:hover .glasses-img{
     opacity: 1;
-    margin-top: 0px
+    margin-top: 0px;
+}
+.details{
+    margin-left: 15px;
 }
