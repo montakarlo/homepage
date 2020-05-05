@@ -9,7 +9,6 @@ window.onload = function () {
             $("strong>a").removeClass("a-dark")
             $(".details").removeClass("details-dark")
 
-
         } else{
             $( ".contact-link" ).addClass("dark_mode");
             $( ".icon" ).addClass("dark_mode");
@@ -18,10 +17,8 @@ window.onload = function () {
             $("main").addClass("main-dark")
             $("strong>a").addClass("a-dark")
             $(".details").addClass("details-dark")
-
         }
   });
-
 }
 
 
