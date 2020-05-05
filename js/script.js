@@ -1,5 +1,5 @@
-  $(".chmode_button").click(function(){
-
+window.onload = function () { 
+    $(".chmode_button").click(function(){
         if ($('.contact-link').hasClass('dark_mode')){
             $( ".contact-link" ).removeClass("dark_mode");
             $( ".icon" ).removeClass("dark_mode");
@@ -21,6 +21,8 @@
 
         }
   });
+
+}
 
 
   
