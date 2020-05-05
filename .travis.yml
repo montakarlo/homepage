@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - 11.13.0
 script:
-  - sudo npm install --global workbox-cli
-  - sudo workbox generateSW workbox-config.js
+  - npm install --global workbox-cli
+  - workbox generateSW workbox-config.js
 deploy:
   - provider: s3
     skip_cleanup: true
